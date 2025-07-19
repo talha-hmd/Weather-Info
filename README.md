@@ -16,7 +16,7 @@
   * Current temperature, humidity, wind speed, precipitation
   * Local time for the searched city
 
-* 🗕 **5-Day Forecast**
+* **5-Day Forecast**
 
   * Min/Max temperatures for the next 5 days
   * Dynamic weather icons fetched from OpenWeather
@@ -43,10 +43,6 @@
 * **Frontend:** HTML, CSS, JavaScript (Vite)
 * **API:** [OpenWeatherMap API](https://openweathermap.org/api)
 * **Hosting:** [Vercel](https://vercel.com)
-
----
-
-## 💻 How to View: 
 
 ---
 
