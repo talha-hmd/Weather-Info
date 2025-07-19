@@ -63,14 +63,7 @@
 ---
 
 ## 📸 Screenshots
-
-| Desktop View        | Mobile View         |
-| ------------------- | ------------------- |
-| ## 📸 Screenshots  
-
-| Desktop View | Mobile View |  
-|-------------|-------------|  
-| <img width="1822" height="997" alt="weather_desktopView" src="https://github.com/user-attachments/assets/1f88ab80-955f-4949-a4a9-f1c6b20326fb" /> | <img width="423" height="938" alt="weather_mobileView" src="https://github.com/user-attachments/assets/d555327f-d9d1-4311-a4b6-a661a61e02ca" /> |
+ <img width="1822" height="997" alt="weather_desktopView" src="https://github.com/user-attachments/assets/1f88ab80-955f-4949-a4a9-f1c6b20326fb" />
 
 ---
 
