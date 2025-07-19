@@ -1,0 +1,108 @@
+/* ==== Animated Search Bar ==== */
+.search-form {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    padding: 10px 15px;
+    transition: width 0.3s ease;
+    width: 10px;
+    overflow: hidden;
+}
+
+.search-form.active-search {
+    width: 250px;
+}
+
+.search-input {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    opacity: 0;
+    width: 0;
+    transition: opacity 0.3s ease, width 0.3s ease;
+}
+
+.search-form.active-search .search-input {
+    opacity: 1;
+    width: 100%;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.search-button .search-icon {
+    color: white;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
+}
+
+.search-button .search-close {
+    color: white;
+    font-size: 16px;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+
+.search-form.active-search .search-icon {
+    opacity: 0;
+}
+
+.search-form.active-search .search-close {
+    opacity: 1;
+}
+
+/* ===== Submit Button ===== */
+.search-submit-btn {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 90px;
+    left: 284px;
+    padding: 10px 25px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease, background 0.3s ease;
+}
+
+/* Show it when active */
+.search-form.active-search+.search-submit-btn {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.search-submit-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.search-submit-btn.error-state {
+    background: rgba(255, 0, 0, 0.8);
+    color: white;
+    font-weight: bold;
+    border: 2px solid red;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
