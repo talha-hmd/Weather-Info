@@ -1,4 +1,4 @@
-<img width="423" height="938" alt="weather_mobileView" src="https://github.com/user-attachments/assets/d234b6aa-581f-4c17-8708-c1bd2d5f3eeb" /><img width="1822" height="997" alt="weather_desktopView" src="https://github.com/user-attachments/assets/2e676547-b6d9-4b34-a580-a026386b3675" /># ⛅ WeatherInfo
+# ⛅ WeatherInfo
 
 **WeatherInfo** is a modern **Weather Forecast Web App** built with **Vite, Vanilla JS, and OpenWeather API**. It provides **real-time weather data**, a **5-day forecast**, and a **dynamic background** that adapts based on live weather conditions.
 
